@@ -1,6 +1,8 @@
+import styles from "./productDetail.module.css";
+
 const ProductDetail = ({ product }) => {
   return (
-    <div>
+    <div className={styles.root}>
       <h2>{product.node.title}</h2>
       <figure style={{ maxWidth: "200px" }}>
         <img
